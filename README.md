@@ -32,6 +32,8 @@ Web Automation Framework using Docker, Java, TestNG, Selenium Webdriver Grid, Sh
         -   go to project folder and under it look for results-XXXX folder
         -   right click and open emailable-reports.html
         -   and all the screenshots are found under screenshots folder
+   
+   6.  Screen-captured [demo video](https://youtu.be/ztDWifaInCI)of the project running on a Mac Device
                           
 
 #### Features of the framework
