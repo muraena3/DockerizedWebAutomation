@@ -29,7 +29,7 @@ Web Automation Framework using Docker, Java, TestNG, Selenium Webdriver Grid, Sh
    
    5. Once Test Run finishes successfully, HTML report should open automatically. 
         Or else:
-        -   go to project folder and look for results-XXXX folder
+        -   go to project folder and under it look for results-XXXX folder
         -   right click and open emailable-reports.html
         -   and all the screenshots are found under screenshots folder
                           
@@ -48,7 +48,7 @@ Test Page : https://www.clicktripz.com/test.php
 
 #####Test Steps:
 
-######For Hotel Citywide:
+###### For Hotel Citywide:
     1. Open a new Chrome browser window and navigate to the Test Page.
     2. Change the location in the City field.
     3. Change the date in the Check-in field to next week’s Friday date.
@@ -63,7 +63,7 @@ Test Page : https://www.clicktripz.com/test.php
     12. Capture the Exit Unit URL.
     13. Close both browser windows.
 
-######For Flights:
+###### For Flights:
     1. Open a new Chrome browser window and navigate to the Test Page.
     2. Select the Flights form.
     3. Change the airport in the From field.
