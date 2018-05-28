@@ -46,7 +46,7 @@ Web Automation Framework using Docker, Java, TestNG, Selenium Webdriver Grid, Sh
 #### Test Requirements
 Test Page : https://www.clicktripz.com/test.php
 
-#####Test Steps:
+##### Test Steps:
 
 ###### For Hotel Citywide:
     1. Open a new Chrome browser window and navigate to the Test Page.
