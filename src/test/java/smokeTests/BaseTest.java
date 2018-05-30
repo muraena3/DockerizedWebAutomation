@@ -95,10 +95,8 @@ public abstract class BaseTest {
           capability.setCapability(ChromeOptions.CAPABILITY, options);
           capability.setBrowserName("chrome");
           try {
-
             //String pathtoHub = "http://localhost:4444/wd/hub";
-            //host = "192.168.99.1";
-            //String pathtoHub = "http://54.158.94.89:4444/wd/hub";
+            //host = "0.0.0.0";
             driver = new RemoteWebDriver(new URL(
                 "http://" + host + ":4444/wd/hub"), capability);
           } catch (MalformedURLException e) {
