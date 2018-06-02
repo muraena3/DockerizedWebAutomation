@@ -25,6 +25,7 @@ Web Automation Framework using Docker, Java, TestNG, Selenium Webdriver Grid, Sh
    4. On your terminal, go to the project downloaded directory, then enter the following command
                   
             $ cd DockerizedWebAutomation/
+            $ chmod +x run.sh
             $ ./run.sh
    
    5. Once Test Run finishes successfully, HTML report should open automatically. 
