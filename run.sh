@@ -14,9 +14,7 @@ echo ${HOSTIP}
     docker network create grid
     docker run -d -p 4444:4444 --net grid --name selenium-hub selenium/hub:latest
     docker run -d --net grid -e HUB_HOST=selenium-hub -v /dev/shm:/dev/shm selenium/node-chrome:latest
-
-# 192.168.99.1
-
+    
     docker build --build-arg SELENIUM_HUB=${HOSTIP} -t ${tag} .
     docker run -d ${tag}
     CID=$(docker ps -alq)
